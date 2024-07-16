@@ -1,62 +1,62 @@
 {
-  "id": "9f30ecf7-0e74-4e36-954e-d17a9f0bdc05",
-  "brand": "Apple",
-  "name": "Macbook Pro",
-  "cpu": {
-    "brand": "AMD",
-    "name": "Ryzen 5 PRO 3500U",
-    "number_cores": 4,
-    "number_threads": 4,
-    "min_ghz": 2.1088421890971083,
-    "max_ghz": 3.4710195702958613
+  "id":  "d1d69bcd-a152-41eb-ab4f-8f11bd04baf1",
+  "brand":  "Lenovo",
+  "name":  "Thinkpad P53",
+  "cpu":  {
+    "brand":  "AMD",
+    "name":  "Ryzen 3 PRO 3200GE",
+    "number_cores":  6,
+    "number_threads":  6,
+    "min_ghz":  2.2972966284359386,
+    "max_ghz":  4.960885806116236
   },
-  "ram": {
-    "value": "11",
-    "unit": "GIGABYTE"
+  "ram":  {
+    "value":  "14",
+    "unit":  "GIGABYTE"
   },
-  "gpus": [
+  "gpus":  [
     {
-      "brand": "NVIDIA",
-      "name": "GTX 1070",
-      "min_ghz": 1.1438991841886084,
-      "max_ghz": 1.2026189107056702,
-      "memory": {
-        "value": "6",
-        "unit": "GIGABYTE"
+      "brand":  "AMD",
+      "name":  "RX Vega-56",
+      "min_ghz":  1.2420388569427185,
+      "max_ghz":  1.6152627080686874,
+      "memory":  {
+        "value":  "3",
+        "unit":  "GIGABYTE"
       }
     }
   ],
-  "storages": [
+  "storages":  [
     {
-      "driver": "SSD",
-      "memory": {
-        "value": "924",
-        "unit": "GIGABYTE"
+      "driver":  "SSD",
+      "memory":  {
+        "value":  "721",
+        "unit":  "GIGABYTE"
       }
     },
     {
-      "driver": "HDD",
-      "memory": {
-        "value": "5",
-        "unit": "TERABYTE"
+      "driver":  "HDD",
+      "memory":  {
+        "value":  "1",
+        "unit":  "TERABYTE"
       }
     }
   ],
-  "screen": {
-    "size_inch": 14.874164,
-    "resolution": {
-      "width": 7285,
-      "height": 4098
+  "screen":  {
+    "size_inch":  15.184595,
+    "resolution":  {
+      "width":  7399,
+      "height":  4162
     },
-    "panel": "IPS",
-    "multitouch": false
+    "panel":  "OLED",
+    "multitouch":  false
   },
-  "keyboard": {
-    "layout": "AZERTY",
-    "backlit": false
+  "keyboard":  {
+    "layout":  "QWERTZ",
+    "backlit":  false
   },
-  "weight_kg": 2.96956063980175,
-  "price_usd": 2458.8453402703844,
-  "release_year": 2016,
-  "updated_at": "2024-07-15T18:44:56.605607372Z"
+  "weight_kg":  2.7932401292252043,
+  "price_usd":  1836.8642452792485,
+  "release_year":  2017,
+  "updated_at":  "2024-07-16T17:39:31.453718958Z"
 }

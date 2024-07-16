@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	rand.Seed(time.Now().UnixNano())
+	rand.New(rand.NewSource(time.Now().UnixNano()))
 }
 
 func randomKeyboardLayout() pb.Keyboard_Layout {
