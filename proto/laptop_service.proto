@@ -4,12 +4,19 @@ package github.com.safr.pcbook;
 
 option go_package = "./pb";
 
+import "filter_message.proto";
 import "laptop_message.proto";
 
 message CreateLaptopRequest { Laptop laptop = 1; }
 
 message CreateLaptopResponse { string id = 1; }
 
+message SearchLaptopRequest { Filter filter = 1; }
+
+message SearchLaptopResponse { Laptop laptop = 1; }
+
 service LaptopService {
   rpc CreateLaptop(CreateLaptopRequest) returns (CreateLaptopResponse) {};
+  rpc SearchLaptop(SearchLaptopRequest) returns (stream SearchLaptopResponse) {
+  };
 }
