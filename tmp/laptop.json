@@ -1,62 +1,62 @@
 {
-  "id": "2e636e22-7495-4523-b3e3-00ca196916b8",
-  "brand": "Dell",
-  "name": "Vostro",
-  "cpu": {
-    "brand": "Intel",
-    "name": "Core i7-9750H",
-    "number_cores": 7,
-    "number_threads": 7,
-    "min_ghz": 2.4665042070443537,
-    "max_ghz": 2.468199747313448
+  "id":  "313edd01-2174-4cc5-824f-f05f2e8f5656",
+  "brand":  "Dell",
+  "name":  "Vostro",
+  "cpu":  {
+    "brand":  "AMD",
+    "name":  "Ryzen 3 PRO 3200GE",
+    "number_cores":  8,
+    "number_threads":  10,
+    "min_ghz":  3.4738735903807614,
+    "max_ghz":  4.061311784071095
   },
-  "ram": {
-    "value": "59",
-    "unit": "GIGABYTE"
+  "ram":  {
+    "value":  "27",
+    "unit":  "GIGABYTE"
   },
-  "gpus": [
+  "gpus":  [
     {
-      "brand": "NVIDIA",
-      "name": "RTX 2060",
-      "min_ghz": 1.2367629861685607,
-      "max_ghz": 1.8188198213548432,
-      "memory": {
-        "value": "3",
-        "unit": "GIGABYTE"
+      "brand":  "AMD",
+      "name":  "RX 580",
+      "min_ghz":  1.1455255632812562,
+      "max_ghz":  1.2101254803590484,
+      "memory":  {
+        "value":  "5",
+        "unit":  "GIGABYTE"
       }
     }
   ],
-  "storages": [
+  "storages":  [
     {
-      "driver": "SSD",
-      "memory": {
-        "value": "741",
-        "unit": "GIGABYTE"
+      "driver":  "SSD",
+      "memory":  {
+        "value":  "322",
+        "unit":  "GIGABYTE"
       }
     },
     {
-      "driver": "HDD",
-      "memory": {
-        "value": "1",
-        "unit": "TERABYTE"
+      "driver":  "HDD",
+      "memory":  {
+        "value":  "4",
+        "unit":  "TERABYTE"
       }
     }
   ],
-  "screen": {
-    "size_inch": 16.52472,
-    "resolution": {
-      "width": 4837,
-      "height": 2721
+  "screen":  {
+    "size_inch":  13.418957,
+    "resolution":  {
+      "width":  2028,
+      "height":  1141
     },
-    "panel": "OLED",
-    "multitouch": false
+    "panel":  "IPS",
+    "multitouch":  true
   },
-  "keyboard": {
-    "layout": "QWERTZ",
-    "backlit": false
+  "keyboard":  {
+    "layout":  "QWERTY",
+    "backlit":  true
   },
-  "weight_kg": 2.4600590101653097,
-  "price_usd": 2116.121831230179,
-  "release_year": 2016,
-  "updated_at": "2024-07-24T16:52:49.378443147Z"
+  "weight_kg":  1.1971523064022827,
+  "price_usd":  2101.435420306665,
+  "release_year":  2017,
+  "updated_at":  "2024-07-25T19:10:53.018526124Z"
 }

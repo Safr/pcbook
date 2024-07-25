@@ -8,9 +8,8 @@ import (
 	"github.com/safr/pcbook/sample"
 	"github.com/safr/pcbook/service"
 	"github.com/stretchr/testify/require"
-	"google.golang.org/grpc/status"
-
 	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 )
 
 func TestServerCreateLaptop(t *testing.T) {
@@ -69,7 +68,7 @@ func TestServerCreateLaptop(t *testing.T) {
 				Laptop: tc.laptop,
 			}
 
-			server := service.NewLaptopServer(tc.store)
+			server := service.NewLaptopServer(tc.store, nil, nil)
 			res, err := server.CreateLaptop(context.Background(), req)
 			if tc.code == codes.OK {
 				require.NoError(t, err)
