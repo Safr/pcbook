@@ -61,7 +61,7 @@ func startTestLaptopServer(t *testing.T, laptopStore service.LaptopStore, imageS
 }
 
 func newTestLaptopClient(t *testing.T, serverAddress string) pb.LaptopServiceClient {
-	conn, err := grpc.Dial(serverAddress, grpc.WithInsecure())
+	conn, err := grpc.NewClient(serverAddress, grpc.WithInsecure())
 	require.NoError(t, err)
 	return pb.NewLaptopServiceClient(conn)
 }

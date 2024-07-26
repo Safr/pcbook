@@ -1,62 +1,62 @@
 {
-  "id":  "313edd01-2174-4cc5-824f-f05f2e8f5656",
-  "brand":  "Dell",
-  "name":  "Vostro",
-  "cpu":  {
-    "brand":  "AMD",
-    "name":  "Ryzen 3 PRO 3200GE",
-    "number_cores":  8,
-    "number_threads":  10,
-    "min_ghz":  3.4738735903807614,
-    "max_ghz":  4.061311784071095
+  "id": "e5c9f926-bd52-4237-8a31-5e8d003ef7e4",
+  "brand": "Lenovo",
+  "name": "Thinkpad P1",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 3 PRO 3200GE",
+    "number_cores": 7,
+    "number_threads": 11,
+    "min_ghz": 2.4641279311125897,
+    "max_ghz": 4.0752752422488046
   },
-  "ram":  {
-    "value":  "27",
-    "unit":  "GIGABYTE"
+  "ram": {
+    "value": "20",
+    "unit": "GIGABYTE"
   },
-  "gpus":  [
+  "gpus": [
     {
-      "brand":  "AMD",
-      "name":  "RX 580",
-      "min_ghz":  1.1455255632812562,
-      "max_ghz":  1.2101254803590484,
-      "memory":  {
-        "value":  "5",
-        "unit":  "GIGABYTE"
+      "brand": "AMD",
+      "name": "RX 5700-XT",
+      "min_ghz": 1.4081236063248765,
+      "max_ghz": 1.6738475059172064,
+      "memory": {
+        "value": "6",
+        "unit": "GIGABYTE"
       }
     }
   ],
-  "storages":  [
+  "storages": [
     {
-      "driver":  "SSD",
-      "memory":  {
-        "value":  "322",
-        "unit":  "GIGABYTE"
+      "driver": "SSD",
+      "memory": {
+        "value": "636",
+        "unit": "GIGABYTE"
       }
     },
     {
-      "driver":  "HDD",
-      "memory":  {
-        "value":  "4",
-        "unit":  "TERABYTE"
+      "driver": "HDD",
+      "memory": {
+        "value": "5",
+        "unit": "TERABYTE"
       }
     }
   ],
-  "screen":  {
-    "size_inch":  13.418957,
-    "resolution":  {
-      "width":  2028,
-      "height":  1141
+  "screen": {
+    "size_inch": 16.078403,
+    "resolution": {
+      "width": 5541,
+      "height": 3117
     },
-    "panel":  "IPS",
-    "multitouch":  true
+    "panel": "IPS",
+    "multitouch": true
   },
-  "keyboard":  {
-    "layout":  "QWERTY",
-    "backlit":  true
+  "keyboard": {
+    "layout": "QWERTZ",
+    "backlit": false
   },
-  "weight_kg":  1.1971523064022827,
-  "price_usd":  2101.435420306665,
-  "release_year":  2017,
-  "updated_at":  "2024-07-25T19:10:53.018526124Z"
+  "weight_kg": 2.4874521537850103,
+  "price_usd": 2431.5855592617877,
+  "release_year": 2016,
+  "updated_at": "2024-07-26T18:17:23.176085926Z"
 }

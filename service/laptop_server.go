@@ -21,6 +21,8 @@ type LaptopServer struct {
 	laptopStore LaptopStore
 	imageStore  ImageStore
 	ratingStore RatingStore
+	// pb.LaptopServiceServer/
+	// for backward compatibility
 	pb.UnimplementedLaptopServiceServer
 }
 

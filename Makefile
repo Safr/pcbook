@@ -20,3 +20,5 @@ lint:
 	GOBIN=$(LOCAL_BIN) golangci-lint run ./... --config .golangci.pipeline.yaml
 test:
 	go test -cover -race ./...
+
+.PHONY: gen clean server client test
