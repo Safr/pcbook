@@ -17,6 +17,7 @@ import (
 	"github.com/safr/pcbook/service"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
 )
 
 func TestClientCreateLaptop(t *testing.T) {
@@ -61,7 +62,7 @@ func startTestLaptopServer(t *testing.T, laptopStore service.LaptopStore, imageS
 }
 
 func newTestLaptopClient(t *testing.T, serverAddress string) pb.LaptopServiceClient {
-	conn, err := grpc.NewClient(serverAddress, grpc.WithInsecure())
+	conn, err := grpc.NewClient(serverAddress, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	require.NoError(t, err)
 	return pb.NewLaptopServiceClient(conn)
 }
